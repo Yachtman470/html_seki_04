@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    padding: 30px 4% 10px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+ }
+
+html{
+    font-size:100%; /*ユーザー設定の文字サイズを正しく反映*/
+}
+*{
+    box-sizing:border-box; /*余白や線を幅や高さに含める*/
+}
+img{
+    max-width:100%; /*画像が親要素からはみ出すのを防ぐ*/
+    height:auto;
+}
+body{
+    background-color:#fff;
+    margin:0;
+    padding:0;
+}
+header{ 
+    width:100%;
+    /* background-color:#d3d3d3; */
+    padding: 0.2%;
+    display: flex;  /*ロゴとulを横に並べる*/    
+}
+ul{
+    display: flex; 
+}
+li{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ /* #nav li {
+    width: 140px;
+    text-align: center;
+  }
+   
+  #nav li a {
+    text-decoration: none;
+    color: black;
+  } */
