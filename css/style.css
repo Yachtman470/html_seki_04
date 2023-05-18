@@ -2,18 +2,22 @@ header {
     width: 100%;
     padding: 30px 4% 10px;
     background-color: #fff;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
- }
+}
 
+ /* headerのロゴと各項目を横並びにする */
 html{
-    font-size:100%; /*ユーザー設定の文字サイズを正しく反映*/
+    /* ユーザー設定の文字サイズを正しく反映 */
+    font-size:100%;
 }
 *{
-    box-sizing:border-box; /*余白や線を幅や高さに含める*/
+    /* 余白や線を幅や高さに含める */
+    box-sizing:border-box;
 }
 img{
-    max-width:100%; /*画像が親要素からはみ出すのを防ぐ*/
+    /* 画像が親要素からはみ出すのを防ぐ */
+    max-width:100%;
     height:auto;
 }
 body{
@@ -25,19 +29,20 @@ header{
     width:100%;
     /* background-color:#d3d3d3; */
     padding: 0.2%;
-    display: flex;  /*ロゴとulを横に並べる*/    
+    /* ロゴとulを横に並べる */
+    display: flex;
+
 }
 ul{
     display: flex; 
 }
-li{
+li.menu{
     margin-left: 50px;
 }
 a{
     text-decoration: none;
     color: black;
 }
-
  /* #nav li {
     width: 140px;
     text-align: center;
@@ -47,3 +52,73 @@ a{
     text-decoration: none;
     color: black;
   } */
+
+/* mainvisualの画像の上に文字を書く */
+.mainvisual{
+    position: relative;
+    /* width:600px; */
+    /* display: flex; 
+    justify-content: center; */
+}
+img{
+    width: 100%;
+}
+/* .mainvisual p{
+    position: absolute;
+    padding: 10px;
+    margin:0;
+    transform: translate(-50%,-50%);
+} */
+.mainvisual #main_para{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainvisual #main_p1{
+    /* top: 20%; */
+    left: 50%;
+    /* bottom: 30px; */
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    /* background-color: white; */
+    font-weight: bold;
+    color: #fff;
+}
+
+.mainvisual #main_p2 {
+    /* background-color: #fff; */
+    /* bottom: 20%; */
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.course01{
+    display: flex;
+}
+
+#para01{
+    /* margin-left: 50px; */
+    margin: auto 0 auto 50px;
+    /* transform: translate(-50%, -50%); */
+}
+
+/* #para02{
+    margin-left: 50px;
+    vertical-align: middle;
+    margin: 0 auto; 
+    height: testHeight;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.testp{
+    display: inline-block;
+    vertical-align: middle;
+  }
