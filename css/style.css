@@ -20,7 +20,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #222222;
 }
 .menu{
     margin-left: 50px;
@@ -59,7 +59,7 @@ a{
 }
 #access{
     text-align: center;
-    background-color: rgb(232, 232, 232);
+    background-color: #fafafa;
 }
 .title_black{
     padding: 60px 0px 30px;
@@ -70,7 +70,7 @@ a{
     margin: 60px 0px 30px;
     font-size: 24px;
     font-weight: bold;
-    color: rgb(255, 230, 0);
+    color: #ffd61a;
 }
 .title_j{
     font-size: 18px;
@@ -94,7 +94,7 @@ a{
 }
 .course_main{
     display: flex;
-    background-color: rgb(232, 232, 232);
+    background-color: #fafafa;
 }
 .course_para1{
     width: 430px;
@@ -223,6 +223,17 @@ th, td {
 }
 .slideshow-fade{
     position: relative;
+    text-align: center;
+}
+.photo_li{
+    display: inline-block;
+    list-style-type: none;
+    /* padding-right: 20px; */
+    /* vertical-align: middle; */
+    text-align: center;
+}
+.photo_fade{
+    text-align: center;
 }
 /* .photo_fade{
     padding-left: 0%;
