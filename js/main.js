@@ -13,5 +13,5 @@ $(function(){
       var $next = $active.next("li").length?$active.next("li"):$(".slideshow-fade li:first");
       $active.fadeOut(1000).removeClass("fade");
       $next.fadeIn(1000).addClass("fade");
-    },2000);  
+    },2000);
 });
